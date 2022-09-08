@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form
+      style="display: flex; flex-direction: column; width: 20vw"
+      id="basicForm"
+    >
+      <label for="studentEmail">Your student email</label>
+      <input
+        type="email"
+        name="studentEmail"
+        id="studentEmail"
+        required
+        minlength="8"
+      />
+      <label for="userName">Username</label>
+      <input type="text" name="userName" id="userName" required />
+      <label for="message">Write to us here!</label>
+      <textarea
+        type="text"
+        name="message"
+        id="message"
+        minlength="8"
+      ></textarea>
+      <button type="submit">Submit form</button>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
