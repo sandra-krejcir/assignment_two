@@ -44,4 +44,5 @@ function resetInput() {
   document.querySelector("#studentEmail").value = "";
   document.querySelector("#userName").value = "";
   document.querySelector("#message").value = "";
+  alert("Your form has been successfully submitted!");
 }
